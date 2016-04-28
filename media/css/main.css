@@ -1,0 +1,118 @@
+.canvas {
+    border: 1px solid;
+    width: 800px;
+    height: 800px;
+}
+
+.red-virus,
+.green-virus,
+.lilov-virus,
+.blue-virus,
+.black-virus {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.red-virus {
+    background: url(./../img/virus-red.jpg) no-repeat 85% 54%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+
+.green-virus {
+    background: url(./../img/virus-grin.jpg) no-repeat 85% 54%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+
+.lilov-virus {
+    background: url(./../img/virus-lilov.jpg) no-repeat 85% 54%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+
+.blue-virus {
+    background: url(./../img/virus-blue.jpg) no-repeat 85% 54%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+
+.black-virus {
+    background: url(./../img/virus-black.jpg) no-repeat 85% 54%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+
+.red-pillow-left,
+.green-pillow-left,
+.lilov-pillow-left,
+.blue-pillow-left,
+.black-pillow-left {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    border-radius: 30px 0 0 30px;
+}
+
+.red-pillow-left {
+    background: #f00 no-repeat 85% 54%;
+}
+
+.green-pillow-left {
+    background: #0f0 no-repeat 85% 54%;
+}
+
+.lilov-pillow-left {
+    background: #693167 no-repeat 85% 54%;
+}
+
+.blue-pillow-left {
+    background: #182e69 no-repeat 85% 54%;
+}
+
+.black-pillow-left {
+    background: #000 no-repeat 85% 54%;
+}
+
+.red-pillow-right,
+.green-pillow-right,
+.lilov-pillow-right,
+.blue-pillow-right,
+.black-pillow-right {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    border-radius: 0 30px 30px 0;
+}
+
+.red-pillow-right {
+    background: #f00 no-repeat 85% 54%;
+}
+
+.green-pillow-right {
+    background: #0f0 no-repeat 85% 54%;
+}
+
+.lilov-pillow-right {
+    background: #693167 no-repeat 85% 54%;
+}
+
+.blue-pillow-right {
+    background: #182e69 no-repeat 85% 54%;
+}
+
+.black-pillow-right {
+    background: #000 no-repeat 85% 54%;
+}
