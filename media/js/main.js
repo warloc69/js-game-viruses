@@ -59,6 +59,7 @@ function GameManager() {
         } else {
             alert("Game Over... Luser!");
         }
+        document.getElementById('start').removeAttribute('disabled');
     };
 
     this.startGame = function () {
@@ -415,7 +416,12 @@ Virus.prototype = Object.create(
 
 function init() {
     new GameManager(100, 800, 1000).startGame();
+    document.getElementById('start').setAttribute('disabled','disabled');
 }
 
 
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded",
+function () {
+    document.getElementById('start').addEventListener('click',init);
+
+});

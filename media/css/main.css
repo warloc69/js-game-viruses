@@ -3,6 +3,13 @@
     width: 800px;
     height: 800px;
 }
+.start {
+    width: 165px;
+    height: 45px;;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+}
 
 .red-virus,
 .green-virus,
